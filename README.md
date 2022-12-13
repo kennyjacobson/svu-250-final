@@ -5,3 +5,4 @@
 1. Go to the test_utilities.py and complete the two unfinished tests (`test_greet_emptystring` and `test_get_average`) following `test_greet_kenny` as your model.
 1. Make sure your two tests pass (be sure to comment out the line `self.assertEqual(0, 1)`)
 1. Check your feature branch code into GitHub.
+1. Create a pull request.
