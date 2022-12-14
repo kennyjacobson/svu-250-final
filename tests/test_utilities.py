@@ -5,12 +5,12 @@ class test_greet(unittest.TestCase):
     def test_greet_kenny(self):
         """
         GIVEN the greet function from utilites
-        WHEN the greet function is called with the parameter "Kenny"
-        THEN the function should return the string "Hello, Kenny!"
+        WHEN the greet function is called with the parameter "Jake"
+        THEN the function should return the string "Hello, Jake!"
         """
 
-        name = "Kenny"
-        expected_result = "Hello, Kenny!"
+        name = "Jake"
+        expected_result = "Hello, Jake!"
         result = greet(name)
         self.assertEqual(result, expected_result)
 
