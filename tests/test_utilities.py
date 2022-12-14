@@ -21,7 +21,7 @@ class test_greet(unittest.TestCase):
         THEN the function should return the string "Hello, stranger."
         """
         #ASSIGNMENT: you will write the code to test the GIVEN/WHEN/THEN above.
-        #TESTING the REPO's new config - another test
+        #TESTING the REPO's new config - another test - 3rd test.
 
         self.assertEqual(0, 1) #comment this out after you write the test.
 
