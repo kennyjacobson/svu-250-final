@@ -28,6 +28,7 @@ class test_greet(unittest.TestCase):
         result = greet(name)
         self.assertEqual(result, expected_result)
 
+        #TESTING the REPO
         #self.assertEqual(0, 1) #comment this out after you write the test.
 
 class test_get_average(unittest.TestCase):
